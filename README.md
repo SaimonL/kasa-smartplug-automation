@@ -48,7 +48,7 @@ Again make sure that you have Python 3.8 or above installed and you ran `pip ins
 Type in the following:
 
 ```bash
-export SMART_PLUG_IP=ip of your device
+export SMART_PLUG_IP=ip address of your device
 export CHECK_EVERY=how many minutes to wait in-between checks
 export MINIMUM_WATTAGE=minimum wattage before turning off the device
 
