@@ -17,8 +17,7 @@ My settings are as follows:
 
 ### Hardware Requirement
 
-In order for this to work you will need "Kasa Smart WiFi Plug w/Energy Monitoring by TP-Link - Reliable WiFi Connection" which you can find at [Amazon](https://www.amazon.com/dp/B0178IC5ZY?ref_=cm_sw_r_cp_ud_dp_MYFHR4A41QSY05NYNYQA). You won't need a hub just plug it in and configure it using the "Kasa" app on your phone first. Then you will need the I.P address of this device. You can get that from your router. Unfortunately the app only shows you the
-mac address which you can't use.
+In order for this to work you will need "Kasa Smart WiFi Plug w/Energy Monitoring by TP-Link - Reliable WiFi Connection" which you can find at [Amazon](https://www.amazon.com/dp/B0178IC5ZY?ref_=cm_sw_r_cp_ud_dp_MYFHR4A41QSY05NYNYQA). You won't need a hub just plug it in and configure it using the "Kasa" app on your phone first. Then you will need the I.P address of this device. You can get that from your router. Unfortunately the app only shows you the mac address which you can't use. This script works since this smart plug supports "Energy Monitoring" feature which is vitial.
 
 ### Software Requirement
 
