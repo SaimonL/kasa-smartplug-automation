@@ -1,0 +1,2 @@
+asyncio >= 3.4.3
+python-kasa >= 0.5.0
