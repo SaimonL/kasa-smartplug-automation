@@ -5,7 +5,7 @@ If the wattage falls under a certain threashold then it will turn off the smart 
 You can customize the which smart plug, how requently to check and what is the minimum wattage.
 
 I use this script every day to check to see if my car charger is finished charging my
-car. Then this script turns off the power to the charger using the smart plug. 
+car. Then this script turns off the power to the charger using the smart plug.
 
 My settings are as follows:
 * Every 5 minutes check.
@@ -17,11 +17,11 @@ My settings are as follows:
 
 ### Hardware Requirement
 
-In order for this to work you will need "Kasa Smart WiFi Plug w/Energy Monitoring by TP-Link - Reliable WiFi Connection" which you can find at [Amazon](https://www.amazon.com/dp/B0178IC5ZY?ref_=cm_sw_r_cp_ud_dp_MYFHR4A41QSY05NYNYQA). You won't need a hub just plug it in and configure it using the "Kasa" app on your phone first. Then you will need the I.P address of this device. You can get that from your router. Unfortunately the app only shows you the mac address which you can't use. This script works since this smart plug supports "Energy Monitoring" feature which is vitial.
+In order for this to work you will need "Kasa Smart Plug Mini with Energy Monitoring, Smart Home Wi-Fi Outlet Works with Alexa, Google Home & IFTTT, Wi-Fi Simple Setup, No Hub Required (KP115)" which you can find at [Amazon](https://www.amazon.com/dp/B08LN3C7WK?ref_=cm_sw_r_cp_ud_dp_5S07V4WW7661WH78WJA5). You won't need a hub just plug it in and configure it using the "Kasa" app on your phone first. Then you will need the I.P address of this device. You can get that from your router. Unfortunately the app only shows you the mac address which you can't use. This script works since this smart plug supports "Energy Monitoring" feature which is vitial.
 
 ### Software Requirement
 
-You will need to install Python 3.8 or above. After installing 
+You will need to install Python 3.8 or above. After installing
 go to this folder and run command `pip install -r requirements.txt`  
 This script was tested using Python 3.10.4
 
@@ -29,7 +29,7 @@ This script was tested using Python 3.10.4
 
 ### Environment Variables
 
-This script takes the configuration input from the environment variables. It is done this way 
+This script takes the configuration input from the environment variables. It is done this way
 so it can be deployed to docker, podman or other containers easily. If you are running this
 locally then just set your local environment variables.
 
@@ -41,7 +41,7 @@ MINIMUM_WATTAGE=2.0
 ```
 
 Replace the values on the right side of the "=" sign with your own.
-  
+
 `CHECK_EVERY` is how many minutes in between to wait to check again.
 
 ### Linux / MacOS
